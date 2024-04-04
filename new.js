@@ -1,0 +1,21 @@
+gsap.from(".main",{
+    x:200,
+    duration:0.7,
+    delay:0.3,
+
+})
+gsap.from(".filter",{
+    x:-200,
+    duration:0.7,
+    delay:0.3,
+})
+gsap.from(".sec2",{
+    y:-400,
+    duration:0.7,
+    delay:0.3,
+})
+gsap.from(".sec3",{
+    y:-650,
+    duration:0.7,
+    delay:0.3,
+})

@@ -1,0 +1,75 @@
+.main{
+height: 120px;
+width: 100%;
+background: white;
+}
+img{
+    height: 120px;
+    width: 120px;
+}
+.navdiv{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+}
+.navdiv button{
+    border-radius: 50px;
+    padding: 10px;
+}
+.navdiv button:hover{
+    border-radius: 50px;
+    padding: 12px;
+    background-color: white;
+}
+.navdiv h1{
+    font-size: 30px;
+}
+
+div.scrollmenu {
+    background-color:snow;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 30px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: snow;
+  }
+  .sec2{
+    height: 250px;
+    width: 100%;
+    background-color:white;
+    height: 250px;
+  }
+ 
+  .sec3{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    height: 250px;
+  }
+  .sec2 div {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+.sec3 div{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.filter{
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display:flex;
+  gap: 10px;
+}
